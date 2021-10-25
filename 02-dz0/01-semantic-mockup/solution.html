@@ -1,4 +1,55 @@
 <!DOCTYPE html>
-<html lang="ru">
-    <!-- Ваше решение -->
+<html lang='ru'>
+  <head>
+    <meta charset='utf-8'>
+    <title>02_01 Семантическая разметка страницы</title>
+    <link rel='stylesheet' href='style.css'>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Header
+      </h1>
+      <nav>
+        <ul class='nav-list'>
+          <li class='nav-list-item'>
+            <a href='#article1'>
+              Navigation 1
+            </a>
+          </li>
+          <li class='nav-list-item'>
+            <a href='#article2'>
+              Navigation 2
+            </a>
+          </li>
+          <li class='nav-list-item'>
+            <a href='#footer'>
+              Navigation 3
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article id='article1'>
+        <h2>Article 1</h2>
+        <ul class='article-list'>
+          <li>Оригинальная трилогия</li>
+          <li>Трилогия приквелов</li>
+          <li>Трилогия сиквелов</li>
+        </ul>
+      </article>
+      <article id='article2'>
+        <h2>Article 2</h2>
+        <ol class='article-list'>
+          <li>Эпизод IV – Новая надежда</li>
+          <li>Эпизод V – Империя наносит ответный удар</li>
+          <li>Эпизод VI – Возвращение джедая</li>
+        </ol>
+      </article>
+    </main>
+    <footer id='footer'>
+      Footer
+    </footer>
+  </body>
 </html>
