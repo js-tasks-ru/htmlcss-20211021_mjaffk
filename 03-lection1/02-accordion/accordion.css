@@ -2,10 +2,9 @@
 .accordion {
     display: grid;
     gap: 8px;
-    width: 730px;
 }
 
-.accordion-item {
+.accordion__item {
     display: block;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
@@ -19,26 +18,25 @@
     background-color: var(--white);
     border: 1px solid var(--grey-2);
     border-radius: 8px;
-    min-width: 730px;
 }
 
-.accordion-item__summary {
+.accordion__summary {
     font: inherit;
     outline: none;
     display: block;
     padding: 24px 32px;
 }
 
-.accordion-item[open] .accordion-item__summary {
+.accordion__item[open] .accordion__summary {
     padding-bottom: 16px;
 }
 
-.accordion-item__summary::-webkit-details-marker,
-.accordion-item__summary::marker {
+.accordion__summary::-webkit-details-marker,
+.accordion__summary::marker {
     display: none;
 }
 
-.accordion-item__content {
+.accordion__content {
     font: inherit;
     margin: 0;
     text-align: justify;
