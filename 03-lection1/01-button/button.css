@@ -26,7 +26,8 @@
     cursor: not-allowed;
 }
 
-.button_primary, .button_primary:active {
+.button_primary,
+.button_primary:active {
     background-color: var(--primary);
 }
 
@@ -34,7 +35,8 @@
     background-color: var(--primary-hover);
 }
 
-.button_secondary, .button_secondary:active {
+.button_secondary,
+.button_secondary:active {
     background-color: var(--secondary);
 }
 
@@ -42,7 +44,8 @@
     background-color: var(--secondary-hover);
 }
 
-.button_alternate, .button_alternate:active {
+.button_alternate,
+.button_alternate:active {
     color: var(--grey-4);
     border: 1px solid var(--grey-3)
 }
