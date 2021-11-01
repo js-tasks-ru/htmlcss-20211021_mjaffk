@@ -1,4 +1,6 @@
 @import '../fonts/fonts.css';
+@import '../normalize/normalize.css';
+@import '../../utils/utils.css';
 
 :root {
     --white: #ffffff;
@@ -9,6 +11,7 @@
     --blue: #374FC7;
     --deep-blue: #2342C0;
     --red: #F03D3E;
+    --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -21,8 +24,15 @@
     --primary-hover: var(--deep-blue);
     --secondary: var(--purple);
     --secondary-hover: var(--deep-perple);
+
+    --default-border: 1px solid var(--grey-2)
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    width: 100%;
 }

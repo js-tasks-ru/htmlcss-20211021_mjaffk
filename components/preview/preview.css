@@ -1,0 +1,12 @@
+.preview {
+    background: #F9FAFC;
+    border-top: var(--default-border);
+    border-bottom: var(--default-border);
+    padding: 67px 0 92px;
+    width: 100%;
+}
+
+.preview__button {
+    display: block;
+    margin: 64px auto 0;
+}

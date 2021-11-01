@@ -16,7 +16,7 @@
     letter-spacing: 0;
     text-align: left;
     background-color: var(--white);
-    border: 1px solid var(--grey-2);
+    border: var(--default-border);
     border-radius: 8px;
 }
 
