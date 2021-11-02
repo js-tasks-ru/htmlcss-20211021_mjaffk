@@ -9,6 +9,7 @@
     --purple: #7048E8;
     --deep-perple: #5028C6;
     --blue: #4263EB;
+    --blue-space: #334D6E;
     --deep-blue: #2342C0;
     --red: #F03D3E;
     --grey-0: #F9FAFC;
@@ -24,6 +25,8 @@
     --primary-hover: var(--deep-blue);
     --secondary: var(--purple);
     --secondary-hover: var(--deep-perple);
+
+    --title-color: var(--blue-space);
 
     --default-border: 1px solid var(--grey-2)
 }
