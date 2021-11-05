@@ -5,9 +5,12 @@
     <meta charset='UTF-8'>
     <title>Main page</title>
     <link rel='stylesheet' href='./assets/css/main.css'>
-    <link rel='stylesheet' href='./components/footer/footer.css'>
     <link rel='stylesheet' href='./components/header/header.css'>
+    <link rel='stylesheet'
+      href='./components/navigation-menu/navigation-menu.css'>
+    <link rel='stylesheet' href='./components/tabs/tabs.css'>
     <link rel='stylesheet' href='./components/preview/preview.css'>
+    <link rel='stylesheet' href='./components/footer/footer.css'>
     <link rel='stylesheet' href='./components/card/card.css'>
     <link rel='stylesheet' href='./03-lection1/01-button/button.css'>
     <link rel='stylesheet' href='./04-lection2/01-histogram/histogram.css'>
@@ -23,35 +26,42 @@
               Circle
               Triangle
             </div>
-            <nav class='header__navigation-menu'>
-              <ul>
-                <li>
-                  <a href='#'>Components</a>
+            <nav class='header__navigation-menu navigation-menu'>
+              <ul class='navigation-menu__list'>
+                <li class='navigation-menu__item'>
+                  <a
+                    href='#'
+                    class='navigation-menu__link navigation-menu__link_active'
+                  >
+                    Components
+                  </a>
                 </li>
-                <li>
-                  <a href='#'>About</a>
+                <li class='navigation-menu__item'>
+                  <a href='#' class='navigation-menu__link'>About</a>
                 </li>
-                <li>
-                  <a href='#'>Contact</a>
+                <li class='navigation-menu__item'>
+                  <a href='#' class='navigation-menu__link'>Contact</a>
                 </li>
               </ul>
             </nav>
-            <div class='theme-switcher'>light/dark</div>
+            <div class='header__theme-switcher'>light/dark</div>
           </div>
           <h1 class='header__title'>Reusable component library</h1>
-          <nav class='tab-list'>
-            <ul>
-              <li>
-                <a href='#'>All components</a>
+          <nav class='header__tabs tabs'>
+            <ul class='tabs__list'>
+              <li class='tabs__item'>
+                <a href='#' class='tabs__link tabs__link_active'>
+                  All components
+                </a>
               </li>
-              <li>
-                <a href='#'>Elements</a>
+              <li class='tabs__item'>
+                <a href='#' class='tabs__link'>Elements</a>
               </li>
-              <li>
-                <a href='#'>Containers</a>
+              <li class='tabs__item'>
+                <a href='#' class='tabs__link'>Containers</a>
               </li>
-              <li>
-                <a href='#'>Templates</a>
+              <li class='tabs__item'>
+                <a href='#' class='tabs__link'>Templates</a>
               </li>
             </ul>
           </nav>
