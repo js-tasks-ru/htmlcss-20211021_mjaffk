@@ -1,0 +1,24 @@
+.element-info {
+    padding: 0 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.element-info__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+    padding: 0;
+    margin: 0;
+}
+
+.element-info__view {
+    flex: 1 1 auto;
+    padding: 0;
+    margin:0;
+}

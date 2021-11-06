@@ -13,6 +13,7 @@
     --blue: #4263EB;
     --blue-space: #334D6E;
     --deep-blue: #2342C0;
+    --light-red: #D84910;
     --red: #F03D3E;
     --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
@@ -22,6 +23,7 @@
 
     --error: var(--red);
     --success: var(--blue);
+    --natification: var(--light-red);
 
     --primary: var(--blue);
     --primary-hover: var(--deep-blue);

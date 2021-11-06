@@ -1,0 +1,4 @@
+.code-box {
+    border-top: var(--default-border);
+    padding: 50px 42px 0;
+}
