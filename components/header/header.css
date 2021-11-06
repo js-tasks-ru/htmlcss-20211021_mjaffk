@@ -29,3 +29,7 @@
     line-height: 24px;
     vertical-align: middle;
 }
+
+.header__navigation-menu {
+    margin: 0 56px 0 auto;
+}

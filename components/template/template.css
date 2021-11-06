@@ -1,5 +1,5 @@
 .template {
-    background: #E5E5E5;
+    background: var(--gray-background);
 }
 
 .template__wrapper {
@@ -11,7 +11,7 @@
 }
 
 .template__header {
-    background: #E5E5E5;
+    background: var(--gray-background);
     grid-area: header;
 }
 

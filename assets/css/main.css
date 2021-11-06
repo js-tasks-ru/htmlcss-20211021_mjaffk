@@ -15,6 +15,7 @@
     --deep-blue: #2342C0;
     --light-red: #D84910;
     --red: #F03D3E;
+    --grey: #E5E5E5;
     --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -30,6 +31,8 @@
     --secondary: var(--purple);
     --secondary-hover: var(--deep-perple);
 
+    --gray-background: var(--grey);
+
     --title-color: var(--blue-space);
 
     --default-border: 1px solid var(--grey-2)
@@ -42,4 +45,9 @@
 html,
 body {
     width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
