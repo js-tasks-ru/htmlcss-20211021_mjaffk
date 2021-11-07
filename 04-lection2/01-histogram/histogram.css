@@ -5,6 +5,7 @@
     border-radius: 8px;
     padding: 16px 24px 29px;
     min-width: 246px;
+    width: 100%;
 }
 
 .histogram__header {

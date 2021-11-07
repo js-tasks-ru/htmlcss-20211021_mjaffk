@@ -13,7 +13,9 @@
     --blue: #4263EB;
     --blue-space: #334D6E;
     --deep-blue: #2342C0;
+    --light-red: #D84910;
     --red: #F03D3E;
+    --grey: #E5E5E5;
     --grey-0: #F9FAFC;
     --grey-1: #F8F9FA;
     --grey-2: #DDE2E5;
@@ -22,11 +24,14 @@
 
     --error: var(--red);
     --success: var(--blue);
+    --natification: var(--light-red);
 
     --primary: var(--blue);
     --primary-hover: var(--deep-blue);
     --secondary: var(--purple);
     --secondary-hover: var(--deep-perple);
+
+    --gray-background: var(--grey);
 
     --title-color: var(--blue-space);
 
@@ -40,4 +45,9 @@
 html,
 body {
     width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
 }
