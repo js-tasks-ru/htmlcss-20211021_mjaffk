@@ -1,5 +1,7 @@
 .template {
     background: var(--gray-background);
+    display: grid;
+    grid-template-rows: 1fr;
 }
 
 .template__wrapper {
@@ -42,4 +44,34 @@
     color: var(--grey-3);
     text-align: center;
     grid-area: footer;
+}
+
+@media (max-width: 600px) {
+    .template {
+        background: var(--white);
+        box-sizing: border-box;
+        min-height: 100vh;
+    }
+
+    .template__wrapper {
+        padding: 0;
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 1fr;
+        grid-gap: 32px;
+        grid-template-areas: "header" "main";
+    }
+
+    .template__side-bar {
+        display: none;
+    }
+
+    .template__footer {
+        display: none;
+    }
+
+    .template__main {
+        padding: 0;
+        display: grid;
+        grid-template-rows: auto 1fr;
+    }
 }

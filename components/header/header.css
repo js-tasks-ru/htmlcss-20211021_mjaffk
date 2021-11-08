@@ -33,3 +33,33 @@
 .header__navigation-menu {
     margin: 0 56px 0 auto;
 }
+
+@media (max-width: 600px) {
+    .header {
+        padding-top: 17px;
+    }
+
+    .header__toolbar {
+        justify-content: center;
+    }
+
+    .header__theme-switcher {
+        display: none;
+    }
+
+    .header__title {
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 38px;
+        color: var(--grey-4);
+        padding: 48px 0 69px;
+    }
+
+    .header__navigation-menu {
+        display: none;
+    }
+
+    .header__tabs {
+        display: none;
+    }
+}

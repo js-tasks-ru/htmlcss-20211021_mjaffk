@@ -12,7 +12,6 @@
 
 .card__preview {
     width: 100%;
-    min-height: 222px;
     margin-bottom: 25px;
     display: flex;
     align-items: center;
@@ -20,7 +19,7 @@
     flex: 1 1 auto;
 }
 
-.card__preview__calendar {
+.card__preview_calendar {
     font-size: 11px;
     width: 202px;
 }
@@ -46,3 +45,40 @@
     color: var(--grey-4);
 }
 
+@media (max-width: 600px) {
+    .card {
+        border-radius: 8px;
+        padding: 0;
+    }
+
+    .card__title {
+        font-family: 'Inter', sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        padding: 12px 10px 10px;
+    }
+
+    .card__description {
+        display: none;
+    }
+
+    .card__preview {
+        padding: 10px;
+        margin-bottom: 0;
+        overflow: hidden;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+    }
+
+    .card__preview_calendar {
+        border: none;
+        font-size: 9px;
+        width: 140px;
+    }
+
+    .card__preview_histogram {
+        font-size: 10px;
+        border: none;
+    }
+}

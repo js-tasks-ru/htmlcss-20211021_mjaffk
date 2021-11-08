@@ -22,3 +22,9 @@
     padding: 0;
     margin:0;
 }
+
+@media (max-width: 600px) {
+    .element-info {
+        padding: 0 16px;
+    }
+}

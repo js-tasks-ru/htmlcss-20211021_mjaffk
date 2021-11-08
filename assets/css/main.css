@@ -35,7 +35,7 @@
 
     --title-color: var(--blue-space);
 
-    --default-border: 1px solid var(--grey-2)
+    --default-border: 1px solid var(--grey-2);
 }
 
 * {
@@ -45,9 +45,11 @@
 html,
 body {
     width: 100%;
+    min-height: 100vh;
 }
 
-ul {
+* {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
