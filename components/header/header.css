@@ -21,8 +21,9 @@
 }
 
 .header__logo {
-    line-height: 32px;
-    vertical-align: middle;
+    height: 32px;
+    width: 110px;
+    color: var(--black);
 }
 
 .header__theme-switcher {
