@@ -1,0 +1,9 @@
+.srcset {
+    padding: 15px;
+}
+
+.srcset__image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
