@@ -32,10 +32,10 @@
     position: absolute;
     right: 32px;
     top: 32px;
-    height: 8px;
+    height: 16px;
     width: 16px;
     color: var(--grey-4);
-    content: url("../../assets/images/icons.svg#arrow-bottom");
+    content: url("../../assets/images/arrow.svg");
 }
 
 .accordion__item[open] > .accordion__summary {
@@ -43,7 +43,7 @@
 }
 
 .accordion__item[open] > .accordion__summary:after {
-    content: url("../../assets/images/icons.svg#arrow-top");
+    transform: rotate(0.5turn);
 }
 
 .accordion__summary::-webkit-details-marker,
