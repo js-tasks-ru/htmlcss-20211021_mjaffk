@@ -5,6 +5,9 @@
 
 .tooltip__trigger {
     cursor: pointer;
+    width: 24px;
+    height: 24px;
+    color: var(--black);
 }
 
 .tooltip__hint {

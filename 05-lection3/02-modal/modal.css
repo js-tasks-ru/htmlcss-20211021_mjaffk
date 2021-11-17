@@ -27,6 +27,14 @@
     right: 12px;
     top: 12px;
     cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.modal__close-icon {
+    height: 16px;
+    width: 16px;
+    color: var(--grey-4);
 }
 
 .modal__title {

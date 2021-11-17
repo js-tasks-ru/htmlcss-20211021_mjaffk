@@ -25,10 +25,25 @@
     outline: none;
     display: block;
     padding: 24px 32px;
+    position: relative;
 }
 
-.accordion__item[open] .accordion__summary {
+.accordion__summary:after {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    height: 16px;
+    width: 16px;
+    color: var(--grey-4);
+    content: url("../../assets/images/arrow.svg");
+}
+
+.accordion__item[open] > .accordion__summary {
     padding-bottom: 16px;
+}
+
+.accordion__item[open] > .accordion__summary:after {
+    transform: rotate(0.5turn);
 }
 
 .accordion__summary::-webkit-details-marker,
