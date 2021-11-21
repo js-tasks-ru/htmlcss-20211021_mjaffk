@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <!-- Страница радио -->
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./radio.css">
-    </head>
-    <body>
-
-    </body>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>07_02 Radio</title>
+    <link rel='stylesheet' href='../../assets/css/main.css'>
+    <link rel='stylesheet' href='./radio.css'>
+  </head>
+  <body style='padding: 20px'>
+    <label class='radio'>
+      <input class='radio__input' type='radio' name='test' />
+      <div class='radio__state'>
+        <div class='radio__control'>
+          <div class='radio__ball'></div>
+        </div>
+        <span class='radio__label'>Label</span>
+      </div>
+    </label>
+    <label class='radio'>
+      <input class='radio__input' type='radio' name='test' checked />
+      <div class='radio__state'>
+        <div class='radio__control'>
+          <div class='radio__ball'></div>
+        </div>
+        <span class='radio__label'>Label</span>
+      </div>
+    </label>
+    <label class='radio'>
+      <input class='radio__input' type='radio' name='test' disabled />
+      <div class='radio__state'>
+        <div class='radio__control'>
+          <div class='radio__ball'></div>
+        </div>
+        <span class='radio__label'>Label</span>
+      </div>
+    </label>
+  </body>
 </html>
