@@ -20,7 +20,7 @@
     color: var(--grey-2);
 }
 
-.checkbox__input:checked ~ .checkbox__state .checkbox__control {
+.checkbox__input:checked:not(:disabled) ~ .checkbox__state .checkbox__control {
     background: var(--primary);
     border-color: var(--primary);
 }
