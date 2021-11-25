@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
-<html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
-
-    </body>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Input</title>
+    <link rel='stylesheet' href='../../assets/css/main.css'>
+    <link rel='stylesheet' href='./input.css'>
+  </head>
+  <body style='padding: 15px; display: flex; gap: 15px; flex-direction: column'>
+    <label class='input'>
+      <p class='input__label'>
+        Label
+      </p>
+      <div class='input__wrapper'>
+        <input type='text' class='input__input' placeholder='Placeholder' />
+      </div>
+    </label>
+    <label class='input input_success'>
+      <p class='input__label'>
+        Label
+      </p>
+      <div class='input__wrapper'>
+        <input type='text' class='input__input' value='Success' />
+      </div>
+    </label>
+    <label class='input input_invalid'>
+      <p class='input__label'>
+        Label
+      </p>
+      <div class='input__wrapper'>
+        <input type='text' class='input__input' value='Error' />
+      </div>
+    </label>
+    <label class='input'>
+      <p class='input__label'>
+        Label
+      </p>
+      <div class='input__wrapper'>
+        <input type='text' class='input__input' value='Error' disabled />
+      </div>
+    </label>
+  </body>
 </html>
