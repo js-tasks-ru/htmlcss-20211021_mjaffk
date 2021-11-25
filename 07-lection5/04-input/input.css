@@ -1,0 +1,77 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+.input__label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+    margin-bottom: 5px;
+}
+
+.input__input {
+    background: var(--white);
+    border: var(--default-border);
+    border-radius: 8px;
+    width: 100%;
+    height: 56px;
+    padding: 17px 52px 13px 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+.input__input::placeholder {
+    color: var(--grey-2);
+}
+
+.input__input:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 1px 1px rgba(51, 154, 240, 0.1);
+}
+
+.input__input:disabled {
+    color: var(--grey-2);
+    cursor: not-allowed;
+}
+
+.input__wrapper {
+    position: relative;
+    width: 100%;
+    color: var(--success);
+}
+
+.input_success .input__wrapper:after {
+    position: absolute;
+    color: var(--success);
+    content: url("../../assets/images/success.svg");
+    top: 16px;
+    right: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.input_invalid .input__wrapper:after {
+    position: absolute;
+    color: var(--error);
+    content: url("../../assets/images/error.svg");
+    top: 16px;
+    right: 16px;
+    height: 24px;
+    width: 24px;
+}
+
+.input_invalid .input__input {
+    border-color: var(--error);
+}
